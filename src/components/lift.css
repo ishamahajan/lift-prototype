@@ -1,0 +1,30 @@
+.building {
+  width: 250px;
+  margin-left: 100px;
+  margin-top: 100px;
+  height: 440px;
+
+  display: grid;
+  grid-auto-flow: column;
+  grid-column: 50px 200px;
+}
+.floor {
+  background-color: aliceblue;
+  width: 200px;
+  height: 40px;
+
+  color: black;
+  border-bottom: 1px solid black;
+  text-align: right;
+  display: inline-block;
+}
+.lift {
+  background-color: red;
+  color: white;
+  text-align: center;
+  height: 40px;
+  width: 50px;
+  display: block;
+  z-index: 99;
+  transition: margin 5s;
+}
